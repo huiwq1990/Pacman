@@ -61,7 +61,7 @@ public class Experiments {
 	public static void main(String[] args) {
 
 		
-//		 train("independent", 0);
+		 train("independent", 0);
 //		 findBestTeacher();
 //		watch(independent);
 		 train("advise197", 0); //abs 62  
