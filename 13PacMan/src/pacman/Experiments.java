@@ -159,6 +159,9 @@ public class Experiments {
 			// First point
 			double[] initialData = pacman.episodeData();
 			double initialScore = evaluate(pacman, TEST);
+			for (int j = 0; j < initialData.length; j++) {
+				System.out.println(initialData[j]);
+			}
 			curves[i].set(0, initialScore, initialData);
 			
 			// Rest of the points
